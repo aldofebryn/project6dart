@@ -13,16 +13,15 @@ class Myprofile extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Contoh Scaffold'),
+          title: const Text('Belajar Scaffold & AppBar'),
           backgroundColor: Colors.blue,
-          leading: const Icon(Icons.menu),
           actions: const [
             Icon(Icons.search),
-            Icon(Icons.more_vert),
+            Icon(Icons.settings),
           ],
         ),
         body: const Center(
-          child: Text('Halo Flutter'),
+          child: Text('Ini Body App'),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
